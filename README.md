@@ -1,10 +1,15 @@
-
-
-
-
-
-
-
+Name: BANTU VARSHASRI
+-------
+Company: CODETECH IT SOLUTIONS
+-----
+ID: CT08DS7680
+----
+Domain: BIGDATA
+----
+Duration: SEP to OCT 2024
+-----
+Mentor: Muzammil
+-----
 
 Project Overview: Data Visualization with Apache Superset
 ---------
