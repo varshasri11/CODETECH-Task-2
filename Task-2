@@ -1,0 +1,46 @@
+!pip install pandas matplotlib plotly
+
+import pandas as pd
+
+# Load data from a CSV file
+url = 'https://example.com/your-data.csv'  # Replace with your data URL
+data = pd.read_csv(url)
+
+# Display the first few rows of the dataset
+data.head()
+
+import matplotlib.pyplot as plt
+
+# Example: Plotting a line chart
+plt.figure(figsize=(10, 5))
+plt.plot(data['Date'], data['Value'], marker='o')
+plt.title('Sample Line Chart')
+plt.xlabel('Date')
+plt.ylabel('Value')
+plt.xticks(rotation=45)
+plt.grid()
+plt.show()
+
+import plotly.express as px
+
+# Example: Creating an interactive scatter plot
+fig = px.scatter(data, x='Column1', y='Column2', title='Interactive Scatter Plot')
+fig.show()
+
+# Display multiple plots in one cell
+plt.figure(figsize=(15, 5))
+
+# First plot
+plt.subplot(1, 2, 1)
+plt.plot(data['Date'], data['Value'], marker='o')
+plt.title('Line Chart')
+plt.xlabel('Date')
+plt.ylabel('Value')
+
+# Second plot
+plt.subplot(1, 2, 2)
+fig = px.scatter(data, x='Column1', y='Column2', title='Scatter Plot')
+fig.show()
+
+plt.tight_layout()
+plt.show()
