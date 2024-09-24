@@ -53,6 +53,21 @@ Data Integration: Ensuring seamless connectivity and data flow from various sour
 User Adoption: Encouraging users to engage with the dashboards and utilize them for decision-making could require training and support.
 Performance Optimization: As the volume of data increases, optimizing the performance of dashboards may be necessary to maintain responsiveness.
 
+OUTPUT
+-----
+
+![Screenshot (33)](https://github.com/user-attachments/assets/85bb111c-7bca-4ef0-9a01-b51689513661)
+
+![Screenshot (34)](https://github.com/user-attachments/assets/634753ec-55a0-4026-a3a9-e975b54412f6)
+
+![Screenshot (35)](https://github.com/user-attachments/assets/275d509f-31a1-4e89-b0b1-3693eff5e7b0)
+
+![Screenshot (36)](https://github.com/user-attachments/assets/b858ad68-0ea3-46fe-b872-a0213ca89cb7)
+
+![Screenshot (37)](https://github.com/user-attachments/assets/1c001e25-3994-40ca-8a15-8c953fead98e)
+
+![Screenshot (39)](https://github.com/user-attachments/assets/5d121282-cf9b-43ed-b0f4-9afb1449acb5)
+
 Conclusion
 -----
 This project aims to empower users with the tools and knowledge to create impactful data visualizations using Apache Superset. By successfully implementing this project, participants will gain hands-on experience with a leading open-source BI tool, enhancing their data analysis and visualization skills.
